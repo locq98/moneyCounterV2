@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		775E8E792D9E811C00D7ABD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775E8E5A2D9E811A00D7ABD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775E8E612D9E811A00D7ABD3;
+			remoteInfo = moneyCounterV2;
+		};
+		775E8E832D9E811C00D7ABD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775E8E5A2D9E811A00D7ABD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775E8E612D9E811A00D7ABD3;
+			remoteInfo = moneyCounterV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		775E8E622D9E811A00D7ABD3 /* moneyCounterV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moneyCounterV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775E8E782D9E811C00D7ABD3 /* moneyCounterV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyCounterV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775E8E822D9E811C00D7ABD3 /* moneyCounterV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyCounterV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		775E8E8A2D9E811C00D7ABD3 /* Exceptions for "moneyCounterV2" folder in "moneyCounterV2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 775E8E612D9E811A00D7ABD3 /* moneyCounterV2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		775E8E642D9E811A00D7ABD3 /* moneyCounterV2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				775E8E8A2D9E811C00D7ABD3 /* Exceptions for "moneyCounterV2" folder in "moneyCounterV2" target */,
+			);
+			path = moneyCounterV2;
+			sourceTree = "<group>";
+		};
+		775E8E7B2D9E811C00D7ABD3 /* moneyCounterV2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = moneyCounterV2Tests;
+			sourceTree = "<group>";
+		};
+		775E8E852D9E811C00D7ABD3 /* moneyCounterV2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = moneyCounterV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775E8E5F2D9E811A00D7ABD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775E8E752D9E811C00D7ABD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775E8E7F2D9E811C00D7ABD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775E8E592D9E811A00D7ABD3 = {
+			isa = PBXGroup;
+			children = (
+				775E8E642D9E811A00D7ABD3 /* moneyCounterV2 */,
+				775E8E7B2D9E811C00D7ABD3 /* moneyCounterV2Tests */,
+				775E8E852D9E811C00D7ABD3 /* moneyCounterV2UITests */,
+				775E8E632D9E811A00D7ABD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775E8E632D9E811A00D7ABD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775E8E622D9E811A00D7ABD3 /* moneyCounterV2.app */,
+				775E8E782D9E811C00D7ABD3 /* moneyCounterV2Tests.xctest */,
+				775E8E822D9E811C00D7ABD3 /* moneyCounterV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775E8E612D9E811A00D7ABD3 /* moneyCounterV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775E8E8B2D9E811C00D7ABD3 /* Build configuration list for PBXNativeTarget "moneyCounterV2" */;
+			buildPhases = (
+				775E8E5E2D9E811A00D7ABD3 /* Sources */,
+				775E8E5F2D9E811A00D7ABD3 /* Frameworks */,
+				775E8E602D9E811A00D7ABD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				775E8E642D9E811A00D7ABD3 /* moneyCounterV2 */,
+			);
+			name = moneyCounterV2;
+			packageProductDependencies = (
+			);
+			productName = moneyCounterV2;
+			productReference = 775E8E622D9E811A00D7ABD3 /* moneyCounterV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775E8E772D9E811C00D7ABD3 /* moneyCounterV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775E8E902D9E811C00D7ABD3 /* Build configuration list for PBXNativeTarget "moneyCounterV2Tests" */;
+			buildPhases = (
+				775E8E742D9E811C00D7ABD3 /* Sources */,
+				775E8E752D9E811C00D7ABD3 /* Frameworks */,
+				775E8E762D9E811C00D7ABD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775E8E7A2D9E811C00D7ABD3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				775E8E7B2D9E811C00D7ABD3 /* moneyCounterV2Tests */,
+			);
+			name = moneyCounterV2Tests;
+			packageProductDependencies = (
+			);
+			productName = moneyCounterV2Tests;
+			productReference = 775E8E782D9E811C00D7ABD3 /* moneyCounterV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		775E8E812D9E811C00D7ABD3 /* moneyCounterV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775E8E932D9E811C00D7ABD3 /* Build configuration list for PBXNativeTarget "moneyCounterV2UITests" */;
+			buildPhases = (
+				775E8E7E2D9E811C00D7ABD3 /* Sources */,
+				775E8E7F2D9E811C00D7ABD3 /* Frameworks */,
+				775E8E802D9E811C00D7ABD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775E8E842D9E811C00D7ABD3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				775E8E852D9E811C00D7ABD3 /* moneyCounterV2UITests */,
+			);
+			name = moneyCounterV2UITests;
+			packageProductDependencies = (
+			);
+			productName = moneyCounterV2UITests;
+			productReference = 775E8E822D9E811C00D7ABD3 /* moneyCounterV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775E8E5A2D9E811A00D7ABD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					775E8E612D9E811A00D7ABD3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					775E8E772D9E811C00D7ABD3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 775E8E612D9E811A00D7ABD3;
+					};
+					775E8E812D9E811C00D7ABD3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 775E8E612D9E811A00D7ABD3;
+					};
+				};
+			};
+			buildConfigurationList = 775E8E5D2D9E811A00D7ABD3 /* Build configuration list for PBXProject "moneyCounterV2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775E8E592D9E811A00D7ABD3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 775E8E632D9E811A00D7ABD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775E8E612D9E811A00D7ABD3 /* moneyCounterV2 */,
+				775E8E772D9E811C00D7ABD3 /* moneyCounterV2Tests */,
+				775E8E812D9E811C00D7ABD3 /* moneyCounterV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775E8E602D9E811A00D7ABD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775E8E762D9E811C00D7ABD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775E8E802D9E811C00D7ABD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775E8E5E2D9E811A00D7ABD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775E8E742D9E811C00D7ABD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775E8E7E2D9E811C00D7ABD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775E8E7A2D9E811C00D7ABD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775E8E612D9E811A00D7ABD3 /* moneyCounterV2 */;
+			targetProxy = 775E8E792D9E811C00D7ABD3 /* PBXContainerItemProxy */;
+		};
+		775E8E842D9E811C00D7ABD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775E8E612D9E811A00D7ABD3 /* moneyCounterV2 */;
+			targetProxy = 775E8E832D9E811C00D7ABD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		775E8E8C2D9E811C00D7ABD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDZ45U9GUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moneyCounterV2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = strokov.moneyCounterV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775E8E8D2D9E811C00D7ABD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDZ45U9GUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moneyCounterV2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = strokov.moneyCounterV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		775E8E8E2D9E811C00D7ABD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		775E8E8F2D9E811C00D7ABD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775E8E912D9E811C00D7ABD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDZ45U9GUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = strokov.moneyCounterV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneyCounterV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moneyCounterV2";
+			};
+			name = Debug;
+		};
+		775E8E922D9E811C00D7ABD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDZ45U9GUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = strokov.moneyCounterV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneyCounterV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moneyCounterV2";
+			};
+			name = Release;
+		};
+		775E8E942D9E811C00D7ABD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDZ45U9GUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = strokov.moneyCounterV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moneyCounterV2;
+			};
+			name = Debug;
+		};
+		775E8E952D9E811C00D7ABD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDZ45U9GUT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = strokov.moneyCounterV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moneyCounterV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775E8E5D2D9E811A00D7ABD3 /* Build configuration list for PBXProject "moneyCounterV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775E8E8E2D9E811C00D7ABD3 /* Debug */,
+				775E8E8F2D9E811C00D7ABD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775E8E8B2D9E811C00D7ABD3 /* Build configuration list for PBXNativeTarget "moneyCounterV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775E8E8C2D9E811C00D7ABD3 /* Debug */,
+				775E8E8D2D9E811C00D7ABD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775E8E902D9E811C00D7ABD3 /* Build configuration list for PBXNativeTarget "moneyCounterV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775E8E912D9E811C00D7ABD3 /* Debug */,
+				775E8E922D9E811C00D7ABD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775E8E932D9E811C00D7ABD3 /* Build configuration list for PBXNativeTarget "moneyCounterV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775E8E942D9E811C00D7ABD3 /* Debug */,
+				775E8E952D9E811C00D7ABD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775E8E5A2D9E811A00D7ABD3 /* Project object */;
+}
